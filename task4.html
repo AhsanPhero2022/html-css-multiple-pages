@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="task4.css" />
+    <title>task4</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Course Registration</h1>
+      <form action="registration.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="years">Years of Study:</label>
+          <input type="number" id="years" name="years" required />
+        </div>
+        <div class="form-group">
+          <label for="course">Course Name:</label>
+          <select id="course" name="course" required>
+            <option value="course1">Course 1</option>
+            <option value="course2">Course 2</option>
+            <option value="course3">Course 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="course-type">Course Type:</label>
+          <select id="course-type" name="course-type" required>
+            <option value="full-time">Full-time</option>
+            <option value="part-time">Part-time</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Gender:</label><br />
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            required
+          />
+          <label for="female">Female</label>
+        </div>
+        <div class="form-group">
+          <label>Hobbies:</label><br />
+          <input
+            type="checkbox"
+            id="hobby1"
+            name="hobbies[]"
+            value="hobby1"
+            checked
+          />
+          <label for="hobby1">Hobby 1</label>
+          <input
+            type="checkbox"
+            id="hobby2"
+            name="hobbies[]"
+            value="hobby2"
+            checked
+          />
+          <label for="hobby2">Hobby 2</label>
+          <input
+            type="checkbox"
+            id="hobby3"
+            name="hobbies[]"
+            value="hobby3"
+            checked
+          />
+          <label for="hobby3">Hobby 3</label>
+          <input type="checkbox" id="hobby4" name="hobbies[]" value="hobby4" />
+          <label for="hobby4">Hobby 4</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
