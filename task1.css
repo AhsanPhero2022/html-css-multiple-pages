@@ -1,0 +1,59 @@
+.welcome{
+    padding: 26px;
+    background: #3498db;
+    text-align: center;
+    color: white;
+}
+.gridLayout{
+margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.child{
+    background: #ecf0f1;
+    padding: 16px;
+    border: 1px solid gray;
+}
+.child1{
+    background: #ecf0f1;
+    padding: 16px;
+    border: 1px solid gray;
+}
+.child2{
+    background: #ecf0f1;
+    padding: 16px;
+    border: 1px solid gray;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: #3498db;
+    margin-top: 1rem;
+}
+  /* Container styles */
+  .container {
+    margin-top: 1rem;
+    background-color: #3498db; /* Green background color */
+    padding: 30px;
+}
+
+
+.input-text {
+    width: 25%; 
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+.my-button {
+    background-color: #e74b3c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
