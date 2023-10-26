@@ -1,0 +1,21 @@
+.welcome{
+    padding: 26px;
+    background: #3498db;
+    text-align: center;
+    color: white;
+}
+.animal{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    padding: 16px;
+    background-color: #f39c13;
+    border: 2px solid gray;
+}
+.child1{
+    padding: 16px;
+    background-color: #e74b3c;
+    border: 2px solid gray;
+}
