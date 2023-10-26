@@ -1,0 +1,30 @@
+.welcome{
+    padding: 26px;
+    background: #3498db;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.child{
+    
+    background-color: #f39c13;
+    padding: 16px;
+}
+.animalBody{
+    background-color: #fff;
+    padding: 8px;
+}
+.child1{
+   
+    background-color: #e74b3c;
+    padding: 16px;
+}
+.flowersBody{
+    background-color: #fff;
+    padding: 8px;
+}
