@@ -1,0 +1,33 @@
+.welcome {
+  background-color: #ffa500;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.additional {
+  background-color: #ffa500;
+  padding: 4px 4px 16px 16px;
+  margin-bottom: 1rem;
+}
+.about {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.child1 {
+  flex-grow: calc(1);
+  background-color: #ffa500;
+  padding: 16px;
+}
+.child2 {
+  flex-grow: calc(1);
+  background-color: #ffa500;
+  padding: 16px;
+}
+.footer {
+  background-color: #ffa500;
+  padding: 10px;
+  text-align: center;
+}
+
